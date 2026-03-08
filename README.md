@@ -18,6 +18,7 @@ Hibernate / JPA
  ▼
 MariaDB (AWS RDS)
 
+
 Full Infrastructure Architecture :
 
                     USER
@@ -32,30 +33,30 @@ Full Infrastructure Architecture :
                      │
         ┌────────────┴────────────┐
         │                         │
-        ▼                         ▼
-  React Frontend             Spring Boot API
- (Attendance Dashboard)       Port 8080
-  Student UI
-  Teacher UI
+        ▼                         ▼ 
+    React Frontend             Spring Boot API
+    (Attendance Dashboard)       Port 8080
+    Student UI
+    Teacher UI
         │
         │ REST API
         ▼
-   Spring Controllers
+        Spring Controllers
         │
         ▼
-   Service Layer
+        Service Layer
         │
         ▼
-   JPA Repository
+        JPA Repository
         │
         ▼
-   Hibernate ORM
+        Hibernate ORM
         │
         ▼
-   MariaDB (AWS RDS)
+        MariaDB (AWS RDS)
         │
         ▼
-   Attendance Tables
-   Student Tables
+        Attendance Tables
+        Student Tables
 
    
