@@ -2,21 +2,24 @@
 Building a 3-tier web application from scratch with complete backend and frontend 
 
 Same process as first project 
-Architechture :
 
-User
- │
- ▼
-React UI
- │
- ▼
-Spring Boot REST API
- │
- ▼
-Hibernate / JPA
- │
- ▼
-MariaDB (AWS RDS)
+Architchture :
+
+                  
+                    USER
+                     │
+                     ▼
+                  React Ui 
+                     │
+                     ▼
+                 Spring Boot REST API   
+                     │
+                     ▼
+                  Hibernate / JPA 
+                     │
+                     ▼
+                 MariaDB (AWS RDS) 
+
 
 
 Full Infrastructure Architecture :
