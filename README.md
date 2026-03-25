@@ -121,7 +121,7 @@ Student access → read only
 
 
 7. Process Of Creation 
-   1. Overviwe :
+   1. Overview :
 
   Project: Batch 5 Attendance System
   Architecture: 3-Tier Web Application
