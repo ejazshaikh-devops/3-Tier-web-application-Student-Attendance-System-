@@ -168,13 +168,13 @@ Student access → read only
    3) Frontend Structure :
      AttendanceApp/frontend
 
-    frontend
-    └ attendance-frontend
-      ├ src
-      │  ├ main.jsx
-      │  └ index.css
-      ├ package.json
-      └ vite.config.js
+          frontend
+          └ attendance-frontend
+          ├ src
+          │  ├ main.jsx
+          │  └ index.css
+          ├ package.json
+          └ vite.config.js
       
 main.jsx (UI LOGIC)
 Responsibilities:
@@ -195,10 +195,10 @@ Implemented Features :
 . perform.ance score
 
  Ui Features : 
- Teaches Panel : Name, Batch, Course
- Student Control : Add Student, Remove Student
- Attendance Table : Weekes
- Analytics : Attendence %, Performance Score
+ Teaches Panel : Name, Batch, Course.
+ Student Control : Add Student, Remove Student.
+ Attendance Table : Weekes.
+ Analytics : Attendence %, Performance Score.
 
 
  8. After Deployment :
@@ -218,8 +218,11 @@ Implemented Features :
 Example: Mark attendance
 
 UI → POST /attendance
+
 Controller → save()
+
 Repository → SQL insert
+
 Database → attendance table  
 
 9. Debugging : 
