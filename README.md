@@ -104,7 +104,7 @@ Same process as first project
 NOTE : This feature and more other features are in production and will update soon
 
 Teacher access → full control
-
+ <br>
 Student access → read only
 
 6. Deployment Architecture : 
@@ -121,30 +121,44 @@ Student access → read only
 
 
 7. Process Of Creation :
+<br>
    Overview :
-
+<br>
   Project: Batch 5 Attendance System
+  <br>
   Architecture: 3-Tier Web Application
 
-  Frontend: React (UI)
+  Frontend: React (UI) 
+  <br>  
   Backend: Spring Boot (Java REST API)
+  <br>
   Database: AWS RDS MariaDB
+  <br>
   Infrastructure: AWS EC2 (Ubuntu)
 
 1. Necessary Directories :
+   <br>
    Database Creation
+   <br>
    Backend : Spring Boot API
+   <br>
    Frontend : React UI
    
    1) Database Creation :
+      <br>
        mysql -h RDS-ENDPOINT -u admin -p
+      <br>
        CREATE DATABASE attendance;
+      <br>
        spring.jpa.hibernate.ddl-auto=update
+      <br>
        student
        attendance
       
-   2) Backend Structure :
+   3) Backend Structure :
+      <br>
       AttendanceApp/backend
+      <br>
       Created Maven project structure:
 
            backend
@@ -166,6 +180,7 @@ Student access → read only
 
 
    3) Frontend Structure :
+    <br>
      AttendanceApp/frontend
 
           frontend
@@ -177,27 +192,43 @@ Student access → read only
           └ vite.config.js
       
 main.jsx (UI LOGIC)
+<br>
 Responsibilities:
+<br>
 1) React app entry
 2) API calls
 3) UI rendering
+   <br>
    Main Logic:
+   <br>
    fetch(API/students)
+   <br>
    POST(API/students)
+   <br>
    DELETE(API/students/{id})
 
 Implemented Features :
+<br>
 . add student
+<br>
 . delete student
+<br>
 . attendance toggle
+<br>
 . weekly attendance
+<br>
 . percentage calculation
+<br>
 . perform.ance score
 
  Ui Features : 
+ <br>
  Teaches Panel : Name, Batch, Course.
+ <br>
  Student Control : Add Student, Remove Student.
+ <br>
  Attendance Table : Weekes.
+ <br>
  Analytics : Attendence %, Performance Score.
 
 
@@ -217,13 +248,15 @@ Implemented Features :
 
 Example: Mark attendance
 
+<br>
 UI → POST /attendance
-
+<br>
 Controller → save()
-
+<br>
 Repository → SQL insert
-
+<br>
 Database → attendance table  
+<br>
 
 9. Debugging : 
 
