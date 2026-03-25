@@ -121,7 +121,8 @@ Student access → read only
 
 
 7. Process Of Creation :
-. Overview :
+
+  1. Overview :
 
   Project: Batch 5 Attendance System
   Architecture: 3-Tier Web Application
@@ -131,7 +132,7 @@ Student access → read only
   Database: AWS RDS MariaDB
   Infrastructure: AWS EC2 (Ubuntu)
 
-. Necessary Directories :
+2. Necessary Directories :
    Database Creation
    Backend : Spring Boot API
    Frontend : React UI
@@ -165,7 +166,7 @@ Student access → read only
    pom.xml : Backend build file defines project dependencies contaions : spring boot, JPA, MariaDB Driver it will used by mvn clean packege. Which will give the output of : target/attendance-backend.jar
 
 
-. Frontend Structure :
+3. Frontend Structure :
      AttendanceApp/frontend
 
     frontend
