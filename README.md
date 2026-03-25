@@ -101,9 +101,10 @@ Same process as first project
               dist/
 
  5. Security Layer (current) :
-NOTE : This feature and more other features and in production and will update soon
+NOTE : This feature and more other features are in production and will update soon
 
 Teacher access → full control
+
 Student access → read only
 
 6. Deployment Architecture : 
