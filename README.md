@@ -1,8 +1,6 @@
 # 3-Tier-web-application-Student-Attendance-System-
 Building a 3-tier web application from scratch with complete backend and frontend 
 
-Same process as first project 
-
 1. Architchture :
 
                   
@@ -83,7 +81,7 @@ Same process as first project
        └──resources/
         application.properties
 
-4. Frontend Architecture :
+4. Frontend Internal Architecture :
 
    
        frontend/
@@ -129,22 +127,16 @@ Student access → read only
   Architecture: 3-Tier Web Application
 
   Frontend: React (UI) 
-  <br>  
+  <br>
   Backend: Spring Boot (Java REST API)
   <br>
   Database: AWS RDS MariaDB
   <br>
   Infrastructure: AWS EC2 (Ubuntu)
 
-1. Necessary Directories :
+1. Necessary Process :
    <br>
-   Database Creation
-   <br>
-   Backend : Spring Boot API
-   <br>
-   Frontend : React UI
-   
-   1) Database Creation :
+    1) Database Creation :
       <br>
        mysql -h RDS-ENDPOINT -u admin -p
       <br>
@@ -209,23 +201,24 @@ Responsibilities:
 
 Implemented Features :
 <br>
-* add student
+add student
 <br>
-* delete student
+delete student
 <br>
-* attendance toggle
+attendance toggle
 <br>
-* weekly attendance
+weekly attendance
 <br>
-* percentage calculation
+percentage calculation
 <br>
-* performance score
+performance score
+<br>
 
  Ui Features : 
  <br>
- Teaches Panel : Name, Batch, Course.
+ Teacher Panel : Name, Batch, Course.
  <br>
- Student Control : Add Student, Remove Student.
+ Students Control : Add Student, Remove Student.
  <br>
  Attendance Table : Weekes.
  <br>
@@ -260,7 +253,115 @@ Database → attendance table
 
 9. Debugging :
 
-    1) 
+    1) Port 8080 already in use
+       <br>
+       Problem : Previous Java process still running in background
+       <br>
+       Debugg : lsof -i :8080
+       <br>
+       ps aux | grep java found the process then
+       <br>
+       kill -9 'process id'
+
+    2) RDS “Access Denied” Error
+       <br>
+       Problem : Access denied for user 'admin'
+       <br>
+       Debugg : Verified application.properties correct credentials + open port 3306 in RDS SG
+
+    3) Java Error
+       <br>
+       Problem : the JDK version 17 requiered version 20
+       <br>
+       Debugg : dpkg --list | grep openjdk found openjdk-17-jdk than apt remove openjdk-17-jdk -y than apt autoremove -y to remove leftover dependencies than installed JDK version 20
+
+    4) Node version Incompatibility
+       Problem : vite error : crypto.hash is not a function
+       <br>
+       Debugg : Node 18 installed vite required Node 20+ so installed new version
+
+    5) Foreign Key Constraint on Delete
+       Problem : Deleting student caused 500 error attendance table had FK reference to student fail to delete any student
+       <br>
+       Debugg : @OneToMany(mappedBy="student",
+       <br>
+       cascade=CascadeType.ALL,
+       <br>
+       orphanRemoval=true)
+       <br>
+       Relational integrity + cascading deletes
+
+    6) Hibernate Dialect Not Determine
+       <br>
+       Problem : Unable to determine dialect DB connection failed so hibernate couldn’t detect DB type
+       <br>
+       Debugg : Issue in DB password corrected the password
+
+    7) Whitelabel Error Page (404)
+       <br>
+       Problem : Accessed root / on backend no controller mapped to /
+       <br>
+       Debugg : Tested proper endpoint /student
+
+    8) Backend Stops After SSH Close
+       <br>
+       Problem : Closing terminal stopped backend process tied to SSH session
+       <br>
+       Debugg : Run the process in background
+       <br>
+       nohup java -jar app.jar > app.log 2>&1 &
+
+    9) CORS Issues
+        <br>
+       Problem : Frontend couldn’t call backend
+       <BR>
+       Debugg : @CrossOrigin
+
+    10) Build Failure (Compilation Error)
+        <br>
+        Problem : cannot find symbol reached end of file while parsing becoz of missing braces / duplicate methods
+        <br>
+        Debugg : Repaired class structure
+
+    11) Maven Dependency Issues
+        <br>
+        Problem : Build failure due to missing dependencies
+        <br>
+        Debugg : Ensured pom.xml correct
+        <br>
+        mvn clean package
+
+    12) Database SSL Warning
+        <br>
+        Problem : useSsl deprecated outdated connection parameters
+        <br>
+        Debugg : Updated connection string to newer format
+
+    13) React build errors
+        <br>
+        Problem : missing package.json
+        <br>
+        Debugg : recreated Vite project
+        
+10. Future Use : If expanded further this project becomes:
+<br>
+1. Role based login
+<br>
+2. Student portal
+<br>
+3. File upload
+<br>
+4. Graph analytics
+<br>
+5. JWT authentication
+
+
+        
+       
+       
+
+       
+       
     
 
 
