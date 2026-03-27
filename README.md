@@ -209,17 +209,17 @@ Responsibilities:
 
 Implemented Features :
 <br>
-. add student
+* add student
 <br>
-. delete student
+* delete student
 <br>
-. attendance toggle
+* attendance toggle
 <br>
-. weekly attendance
+* weekly attendance
 <br>
-. percentage calculation
+* percentage calculation
 <br>
-. perform.ance score
+* performance score
 
  Ui Features : 
  <br>
@@ -258,7 +258,10 @@ Repository → SQL insert
 Database → attendance table  
 <br>
 
-9. Debugging : 
+9. Debugging :
+
+    1) 
+    
 
 
 
