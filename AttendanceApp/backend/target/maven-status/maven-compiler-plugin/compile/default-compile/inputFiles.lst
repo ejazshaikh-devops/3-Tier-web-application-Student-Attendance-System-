@@ -1,0 +1,9 @@
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/AttendanceApplication.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/controller/AttendanceController.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/controller/ClassStatsController.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/controller/DashboardController.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/controller/StudentController.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/model/Attendance.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/model/Student.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/repository/AttendanceRepository.java
+/root/AttendanceApp/backend/src/main/java/com/attendance/app/repository/StudentRepository.java

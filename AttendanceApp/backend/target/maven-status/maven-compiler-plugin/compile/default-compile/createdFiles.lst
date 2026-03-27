@@ -1,0 +1,9 @@
+com/attendance/app/AttendanceApplication.class
+com/attendance/app/controller/StudentController.class
+com/attendance/app/model/Attendance.class
+com/attendance/app/repository/AttendanceRepository.class
+com/attendance/app/model/Student.class
+com/attendance/app/controller/AttendanceController.class
+com/attendance/app/controller/DashboardController.class
+com/attendance/app/repository/StudentRepository.class
+com/attendance/app/controller/ClassStatsController.class

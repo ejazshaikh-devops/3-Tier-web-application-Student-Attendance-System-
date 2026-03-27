@@ -1,0 +1,340 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-02-24T20:30:23.739Z  INFO 16486 --- [           main] c.attendance.app.AttendanceApplication   : Starting AttendanceApplication v1.0.0 using Java 17.0.18 with PID 16486 (/root/AttendanceApp/backend/target/attendance-backend-1.0.0.jar started by root in /root/AttendanceApp/backend)
+2026-02-24T20:30:23.746Z  INFO 16486 --- [           main] c.attendance.app.AttendanceApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-02-24T20:30:25.103Z  INFO 16486 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-24T20:30:25.231Z  INFO 16486 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+2026-02-24T20:30:26.151Z  INFO 16486 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-24T20:30:26.183Z  INFO 16486 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-24T20:30:26.183Z  INFO 16486 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-02-24T20:30:26.249Z  INFO 16486 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-24T20:30:26.251Z  INFO 16486 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2412 ms
+2026-02-24T20:30:26.547Z  INFO 16486 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-24T20:30:26.663Z  INFO 16486 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-02-24T20:30:26.727Z  INFO 16486 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-24T20:30:27.257Z  INFO 16486 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-24T20:30:27.349Z  INFO 16486 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-24T20:30:27.372Z  WARN 16486 --- [           main] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:27.372Z  WARN 16486 --- [           main] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:27.898Z  INFO 16486 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@8432469
+2026-02-24T20:30:27.902Z  INFO 16486 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-24T20:30:28.005Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.005Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.081Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.082Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.165Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.165Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.234Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.234Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.305Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.305Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.382Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.382Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.460Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.460Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.528Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.529Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:28.601Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:30:28.601Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:30:29.434Z  INFO 16486 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24T20:30:29.530Z  INFO 16486 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-24T20:30:30.209Z  WARN 16486 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-24T20:30:30.758Z  INFO 16486 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-02-24T20:30:30.794Z  INFO 16486 --- [           main] c.attendance.app.AttendanceApplication   : Started AttendanceApplication in 7.597 seconds (process running for 8.2)
+2026-02-24T20:30:36.030Z  INFO 16486 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-24T20:30:36.031Z  INFO 16486 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-24T20:30:36.033Z  INFO 16486 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select s1_0.id,s1_0.batch,s1_0.name from student s1_0
+2026-02-24T20:59:43.799Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:43.800Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:46.875Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:46.875Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:46.876Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:46.876Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.159Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.159Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.160Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.160Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.161Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.161Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.179Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.180Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.180Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.180Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.183Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.183Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:47.185Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:47.185Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:50.832Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:50.833Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:50.834Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:50.834Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:50.835Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:50.835Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:50.835Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:50.835Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:50.836Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:50.836Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.688Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.688Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.689Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.689Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.690Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.690Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.691Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.691Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.691Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.691Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:54.692Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:54.692Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.901Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.901Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.902Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.902Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.903Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.903Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.904Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.904Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.904Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.904Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.905Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.905Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:56.906Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:56.906Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.015Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.015Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.987Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.987Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.988Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.988Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.989Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.989Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.990Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.991Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.991Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.992Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.992Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.992Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.993Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.993Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T20:59:59.994Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T20:59:59.994Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.252Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.252Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.253Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.253Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.254Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.254Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.255Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.255Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.255Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.255Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.256Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.256Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.257Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.257Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.257Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.257Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:10.258Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:10.258Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.411Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.411Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.412Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.412Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.413Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.413Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.415Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.415Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.416Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.416Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.417Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.417Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.417Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.417Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.418Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.418Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.418Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.418Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:24.419Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:24.419Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:00:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:00:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.016Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:28.027Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:28.027Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:01:58.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:01:58.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.017Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.019Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.020Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:02:58.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:02:58.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.022Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.023Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.024Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.025Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.026Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:28.027Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:28.027Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.018Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.021Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.071Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.071Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.116Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.116Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.161Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.162Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.212Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.212Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.253Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.253Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.304Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.305Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.344Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.348Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.388Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.388Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
+2026-02-24T21:03:58.427Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `useSsl` option is deprecated, replaced by option `sslMode`
+2026-02-24T21:03:58.427Z  WARN 16486 --- [onnection adder] org.mariadb.jdbc.Configuration           : `trustServerCertificate` option is deprecated, replaced by setting option `sslMode=trust`
